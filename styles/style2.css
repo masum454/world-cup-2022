@@ -322,6 +322,7 @@ hr {
 
     .match-link {
         background: none;
+        display: flex;
         width: 100%;
         flex-direction: row;
         justify-content: space-between;
@@ -357,11 +358,11 @@ hr {
     }
 
 
-    .player-card {
+    .match-summery {
         grid-template-columns: repeat(2, 1fr);
     }
 
-    .celebrations {
+    .match-schedule {
         width: 100%;
         height: auto;
     }
