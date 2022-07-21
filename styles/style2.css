@@ -1,0 +1,174 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    background-color: #161616;
+    width: 1321px;
+    height: 646px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.argentina {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+
+}
+
+.argentina-show h1 {
+    font-size: 70px;
+    text-align: left;
+    margin-bottom: 10px;
+    margin: 0;
+    padding: 0;
+    color: #FFFFFF;
+}
+
+.argentina-show p {
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+.argentina-show a {
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: #DD0000;
+    padding: 16px 25px;
+    border-radius: 5px;
+}
+
+/* ----------------- 
+    Match Details 
+--------------- */
+
+.match-container {
+    width: 1321px;
+}
+
+.match-theme {
+    margin-top: 50px;
+    display: flex;
+    gap: 25px;
+}
+
+.match-link a {
+    text-decoration: none;
+    padding: 15px 25px;
+    background-color: #FFFFFF;
+    color: #161616;
+    /* margin-bottom: 20px; */
+    border-radius: 10px;
+    text-align: center;
+    margin: 15px;
+    font-size: 20px;
+}
+
+.match-link .upcomming-btn {
+    background-color: #DD0000;
+}
+
+.match-link {
+    display: grid;
+    justify-content: start;
+    background-color: #161616;
+    width: 250px;
+    border-radius: 7px;
+    padding: 10px;
+
+}
+
+.match-summery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.match-schedule img {
+    width: 100px;
+    height: 70px;
+}
+
+.match-schedule {
+    width: 312px;
+    height: 242px;
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.country-flag {
+    display: flex;
+    gap: 20px;
+
+}
+
+.match-time {
+    margin: 25px;
+}
+
+.time-maintain {
+    text-align: center;
+}
+
+.arg-braz {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.match-date {
+    font-size: 16px;
+    color: #4D4D4D;
+}
+
+
+.footers {
+    background-color: #161616;
+    width: 100%;
+    height: 400px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.footers h1 {
+    color: #FFFFFF;
+    font-size: 40px;
+    margin: 40px;
+}
+
+.footers a {
+    text-decoration: none;
+    color: #FFFFFF;
+    margin: 30px;
+    font-size: 16px;
+}
+
+hr {
+    width: 80%;
+    color: rgb(224, 224, 224);
+
+}
+
+.footer-info {
+    margin: 90px;
+}
+
+.footer-condition {
+
+    margin: 50px;
+}
+
+.footers .icon {
+    color: white;
+    margin-top: 60px;
+}
