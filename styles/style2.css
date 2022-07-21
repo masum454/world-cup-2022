@@ -172,3 +172,212 @@ hr {
     color: white;
     margin-top: 60px;
 }
+
+
+
+
+@media screen and (min-width: 0px) and (max-width: 768px) {
+    .container {
+        background-color: #000;
+        width: 90%;
+        height: auto;
+        border-radius: 30px;
+        margin: 0 auto;
+        /* display: flex; */
+        /* flex-direction: column; */
+        /* justify-content: center; */
+        margin-top: 40px;
+        /* padding: 0 20px; */
+    }
+
+    .match-container {
+        width: auto;
+    }
+
+    .argentina {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+        text-align: center;
+    }
+
+    .argentina-show h1 {
+        margin-top: 40px;
+        text-align: center;
+        font-size: 60px;
+        line-height: 70px;
+    }
+
+    .argentina-show a {
+        font-size: 25px;
+    }
+
+    .messi {
+        margin-top: 50px;
+    }
+
+    .match-container {
+        width: 100%;
+    }
+
+    .match-link {
+        background: none;
+    }
+
+    .match-link-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .match-link a {
+        border: 2px solid rgb(215, 213, 213);
+
+    }
+
+    .match-theme {
+        display: grid;
+    }
+
+
+    .player-card {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .celebrations {
+        width: 100%;
+        height: auto;
+    }
+
+    .celebration img {
+        width: 100%;
+        height: auto;
+    }
+
+    .footers {
+        height: auto;
+    }
+
+    .footer-condition {
+        margin: 50px;
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    .container {
+        background-color: #000;
+        width: 90%;
+        height: auto;
+        border-radius: 30px;
+        margin: 0 auto;
+        /* display: flex; */
+        /* flex-direction: column; */
+        /* justify-content: center; */
+        margin-top: 40px;
+        /* padding: 0 20px; */
+    }
+
+    .match-container {
+        width: auto;
+    }
+
+    .argentina {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        text-align: center;
+        padding: 30px;
+    }
+
+    .argentina-show {
+        padding-left: 10px;
+    }
+
+    .argentina-show h1 {
+        margin-top: 40px;
+        text-align: left;
+        font-size: 40px;
+        line-height: 70px;
+    }
+
+    .argentina-show p {
+        text-align: left;
+        font-size: 20px;
+
+    }
+
+    .argentina-show a {
+        font-size: 25px;
+    }
+
+    .messi {
+        margin-top: 50px;
+    }
+
+    .match-container {
+        width: 100%;
+    }
+
+    .match-link {
+        background: none;
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .match-link-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .view-all {
+        display: block;
+        text-align: center;
+    }
+
+    .view-all button {
+        background-color: #DD0000;
+        outline: none;
+        border: none;
+        padding: 20px 30px;
+        font-size: 25px;
+        border-radius: 5px;
+    }
+
+    .match-link a {
+        border: 2px solid rgb(215, 213, 213);
+        width: 150px;
+
+    }
+
+    .match-theme {
+        display: grid;
+    }
+
+
+    .player-card {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .celebrations {
+        width: 100%;
+        height: auto;
+    }
+
+    .celebration img {
+        width: 100%;
+        height: auto;
+    }
+
+    .footers {
+        height: auto;
+    }
+
+    .footer-condition {
+        margin: 50px;
+        display: flex;
+        flex-direction: column;
+    }
+}
