@@ -372,6 +372,11 @@ hr {
         height: auto;
     }
 
+    .country-flag {
+        display: flex;
+        justify-content: space-between;
+    }
+
     .footers {
         height: auto;
     }
